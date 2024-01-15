@@ -93,3 +93,28 @@ main{
 .movie:hover .overview{
     transform: translateY(0);
 }
+
+#tags{
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.tag{
+    color: black;
+    padding: 10px 20px;
+    background-color: cyan;
+    border-radius:50px ;
+    margin: 5px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.tag.highlight{
+    background-color:   rgb(120, 130, 130);
+}
+
+.no-results{
+    color: white;
+}
